@@ -1,6 +1,7 @@
 @use 'util' as u;
 
 :root {
+  // colors
   --c-white: #FFFDFA;
   --c-blue: #00001A;
   --c-gray: #5E607A;
@@ -13,9 +14,10 @@
   --f-xl: clamp(2.5rem, 2.147887323943662rem + 1.5023474178403755vw, 3.5rem); // 40px,56px
   --f-lg: clamp(2rem, 1.823rem + 0.751vw, 2.5rem); //32px, 40px
   --f-m: u.rem(32);
-
   --f-s: u.rem(20);
   --f-xs: u.rem(18);
   --f-body: u.rem(15);
+
   
+
 }
