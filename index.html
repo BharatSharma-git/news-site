@@ -17,36 +17,40 @@
       <img class="header__logo" src="/public/img/logo.svg" alt="">
     </a>
     <nav>
-      <li>
-        <a class="header__links" href="">Home</a>
-      </li>
-      <li>
-        <a class="header__links" href="">New</a>
-      </li>
-      <li>
-        <a class="header__links" href="">Popular</a>
-      </li>
-      <li>
-        <a class="header__links" href="">Trending</a>
-      </li>
-      <li>
-        <a class="header__links" href="">Categories</a>
-      </li>
+      <ul class="header__links">
+        <li>
+          <a class="header__link" href="">Home</a>
+        </li>
+        <li>
+          <a class="header__link" href="">New</a>
+        </li>
+        <li>
+          <a class="header__link" href="">Popular</a>
+        </li>
+        <li>
+          <a class="header__link" href="">Trending</a>
+        </li>
+        <li>
+          <a class="header__link" href="">Categories</a>
+        </li>
+      </ul>
     </nav>
   </header>
 
   <main>
     <article class="wrapper grid">
       <section class="feature">
-        <picture>
-          <source media="(min-width: 1024px)" srcset="./public/img/hero-img-desktop.jpg" width="730" height="300">
+        <picture class="feature__picture">
+          <source media="(min-width: 43.75em)" srcset="./public/img/hero-img-desktop.jpg" width="730" height="300">
           <img class="feature__img" width="343" height="300" src="./public/img/hero-img-mobile.jpg"
             alt="colorful blocks design">
         </picture>
         <h1 class="feature__headline">The Bright Future of Wec 3.0?</h1>
-        <p class="feature__description">We dive Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem id alias
-          est officiis obcaecati odit esse cum ab mollitia voluptatibus.</p>
-        <a href="" class="feature__btn">Read More</a>
+        <div class="feature__description">
+          <p>We dive Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem id alias
+            est officiis obcaecati odit esse cum ab mollitia voluptatibus.</p>
+          <a href="" class="feature__btn">Read More</a>
+        </div>
       </section>
       <section class="new">
         <h2 class="new__title">New</h2>
@@ -83,21 +87,21 @@
         <article class="blog__item">
           <img src="./public/img/new-1.jpg" alt="retro computer" class="blog__img">
           <div class="blog__number">01</div>
-          <h3 class="blog__heading"><a href=""></a>Reviving Retri PCs</h3>
+          <h3 class="blog__headline"><a href="">Reviving Retri PCs</a></h3>
           <p class="blog__description">What happens when old PCs are given mordern upgrades?</p>
         </article>
 
         <article class="blog__item">
           <img src="./public/img/new-2.jpg" alt="keyboard red backlit" class="blog__img">
           <div class="blog__number">02</div>
-          <h3 class="blog__heading"><a href=""></a>Top 10 Laptops of 2022</h3>
+          <h3 class="blog__headline"><a href="">Top 10 Laptops of 2022</a></h3>
           <p class="blog__description">Our best picks for various needs and budgts.</p>
         </article>
 
         <article class="blog__item">
           <img src="./public/img/new-3.jpg" alt="game controler" class="blog__img">
           <div class="blog__number">03</div>
-          <h3 class="blog__heading"><a href=""></a>The Growth of Gaming</h3>
+          <h3 class="blog__headline"><a href="">The Growth of Gaming</a></h3>
           <p class="blog__description">How the pandemic has sparked fresh opportunities.</p>
         </article>
 
