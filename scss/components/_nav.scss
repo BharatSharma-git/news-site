@@ -12,7 +12,15 @@
     }
   }
 
-  &__open {}
+  &__open[aria-expanded='true'] {
+    ~.nav__content {
+      translate: 0;
+    }
+
+    ~.nav__overlay {
+      opacity: 0.7;
+    }
+  }
 
   &__content {
     @media (width < u.em(1110)) {
@@ -39,6 +47,7 @@
     background-color: var(--c-blue);
     opacity: 0;
     transition: opacity 300ms ease-in-out;
+    pointer-events: none;
   }
 
 }
